@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Poetry
+.poetry/
+poetry.lock  # если хотите хранить зависимости, уберите эту строку
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
