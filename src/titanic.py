@@ -16,3 +16,6 @@ def get_average_age_by_sex(file_path: str) -> str:
         'female': avg_age.get('female', 0.0),
     }
     return json.dumps(result, ensure_ascii=False)
+
+if __name__ == '__main__':
+    print(get_average_age_by_sex('data/titanic.csv'))
